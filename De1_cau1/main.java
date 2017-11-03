@@ -20,11 +20,12 @@ public class main {
     static int dung_tich;
     public static void main(String[] args) {
         ArrayList<Xe> arr = new ArrayList<>();
-        // cau a
+        // cau a Nhập danh sách xe vào một Array List, việc nhập kết thúc khi ta nhập tên chủ xe bằng rỗng.
         NhapDanhSach(arr);
-        // cau b
+        // cau b Xuất bảng kê khai tiền thuế phải đóng của các xe trong danh sách. Thông tin xuất bao
+        // gồm: tên chủ xe, loại xe, trị giá xe, dung tích xylanh của xe, thuế phải đóng.
         XuatDanhSach(arr);
-        // cau c
+        // cau c Nhập tên chủ xe và loại xe vào, xuất hiện thuế phải đóng của chủ xe.
         NhapDanhSachXuatThue(arr);
     }
     static void NhapDanhSach(ArrayList<Xe> arr){ // cau a

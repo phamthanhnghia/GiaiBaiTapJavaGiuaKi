@@ -60,6 +60,7 @@ public class main {
         int b = 0; // lưu trữ vị trí chuyến xe noi thành có doanh thu cao nhất
         int max_a = 0; // dùng để so sánh cho ngoại thành
         int max_b =0;// dùng để so sánh cho nội thành
+        
         for(int i =0 ; i<arr.size();i++){
             if(arr.get(i) instanceof NgoaiThanh){ // kiem tra lop ngoại thành
                 if(arr.get(i).DoanhThu > max_a){

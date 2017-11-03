@@ -15,12 +15,10 @@ public class NoiThanh extends ChuyenXe{
     public NoiThanh() {
     }
 
-    
     public NoiThanh(int QuangDuong, int MaChuyen, String HoTen, String SoXe, int KhoiLuong, int DoanhThu) {
         super(MaChuyen, HoTen, SoXe, KhoiLuong, DoanhThu);
         this.QuangDuong = QuangDuong;
     }
-
    
     @Override
     public void Input(){

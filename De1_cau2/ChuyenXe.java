@@ -22,7 +22,6 @@ public class ChuyenXe {
     public ChuyenXe() {
     }
     
-    
     public ChuyenXe(int MaChuyen, String HoTen, String SoXe, int KhoiLuong, int DoanhThu) {
         this.MaChuyen = MaChuyen;
         this.HoTen = HoTen;
